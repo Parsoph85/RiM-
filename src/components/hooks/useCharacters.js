@@ -9,7 +9,9 @@ export const useCharacters = (ids) => {
     setIsLoading(true);
     fetchCharacters(ids).then((data) => {
       console.log(data);
+      if (data.length) {
       setCharacters(data);
+      } else { setCharacters ([data]) }
       setIsLoading(false);
     });
   }, [ids]);
