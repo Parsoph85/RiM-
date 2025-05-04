@@ -60,3 +60,14 @@ body {
   padding: 10px;
   overflow: hidden;
 }
+
+.location-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
